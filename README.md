@@ -1,4 +1,4 @@
---README--
+#README
 
 #Practiques de Test i Qualitat de SW
 ##Team Members

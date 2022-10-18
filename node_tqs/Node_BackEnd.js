@@ -9,14 +9,26 @@ app.get('/', (req, res) => {
     res.send('Hello World!')
 });
 
+app.get('/get_scores', async (req, res) => {
+    const fs = require('fs');
+
+    var response = fs.readFileSync('./scores.txt',
+        {encoding:'utf8', flag:'r'});
+
+    res.send(response);
+
+});
+
 // example http call:
 // localhost:3000/set_score?nombre=MrUwU&puntuacion=20
 app.get('/set_score',(req, res) => {
+    const fs = require('fs');
+    // var ip = req.ip;
     var name = req.query.nombre;
     var score = req.query.puntuacion;
-    var lineScore = name + ',' + score + '\n';
+    var lineScore = name + ',' + score +'|\n';
     console.log(score);
-    const fs = require('fs');
+
     fs.appendFile('./scores.txt',lineScore, err => {
         if(err){
             console.log(err);

@@ -12,4 +12,5 @@
 ## TODO
 * [TODO_PRÀCTICA_1](./TO_DO.md)
 
-https://github.com/EvanBacon/Expo-Crossy-Road --> projecto crossy road
+https://github.com/EvanBacon/Expo-Crossy-Road --> projecto crossy road 
+hola me llamo Adria

@@ -10,6 +10,6 @@
 |Gastón|Montero|1455447|gastonnicolas.montero@autonoma.cat|
 
 ## TODO
-* [TODO_PRÀCTICA_1](./TO_DO)
+* [TODO_PRÀCTICA_1](./TO_DO.md)
 
 https://github.com/EvanBacon/Expo-Crossy-Road --> projecto crossy road

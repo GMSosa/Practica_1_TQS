@@ -26,7 +26,7 @@ app.get('/set_score',(req, res) => {
     // var ip = req.ip;
     var name = req.query.nombre;
     var score = req.query.puntuacion;
-    var lineScore = name + ',' + score +'\n';
+    var lineScore = name + ',' + score +'|\n';
     console.log(score);
 
     fs.appendFile('./scores.txt',lineScore, err => {
